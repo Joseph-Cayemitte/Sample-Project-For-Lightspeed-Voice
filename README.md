@@ -19,3 +19,11 @@ Instrucation on how to run:
        --ng serve
 
 7.  Open browser and put in the address bar: "https://localhost:4200/user/{user}". Replace {name} with a real name (Stuart,Tyler, Adam or Lan)
+
+<img src='Stuart.png'/>
+<img src='Tyler.png'/>
+<img src='Adam.png'/>
+<img src='Lan.png'/>
+<img src='E-commerce.png'/>
+<img src='AngularUpgrades.png'/>
+<img src='WebsocketUpdates.png'/>
