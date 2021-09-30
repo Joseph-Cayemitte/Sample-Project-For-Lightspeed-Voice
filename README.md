@@ -1,7 +1,7 @@
 Instrucation on how to run:
 
 1. Open XAMPP
-2. Turn on Apache and MySQL
+2. Start Apache and MySQL
 3.  Open command line and cd into the sample-project-api folder
 4.  Run the following commands:
 
