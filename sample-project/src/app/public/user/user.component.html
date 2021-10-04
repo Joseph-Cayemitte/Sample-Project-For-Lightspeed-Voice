@@ -1,0 +1,19 @@
+<h1>{{ name }}'s Project List</h1>
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th scope="col">Project</th>
+        <th scope="col">Members</th>                                
+        <th scope="col">Estimated Hours</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let pro of projects; let i=index">
+            <th> {{ pro }}</th>
+            <th>{{ members[i] }}</th>
+            <th>{{ time[i] }}</th>
+            <th><button (click)=getProjectdata(pro)>view</button></th>
+        </tr>
+    </tbody>  
+<router-outlet></router-outlet>

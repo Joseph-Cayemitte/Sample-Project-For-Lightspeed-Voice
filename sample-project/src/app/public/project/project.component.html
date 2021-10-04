@@ -1,0 +1,19 @@
+<h1> {{projectName}} ----- Total Time: {{ totalTime }}</h1>
+<table class="styled-table">
+    <thead>
+      <tr>
+        <th scope="col">Task</th>
+        <th scope="col">Assigned To</th>                                
+        <th scope="col">Estimated Hours</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let t of tasks; let i=index">
+            <th> {{ t }}</th>
+            <th> {{ assigned[i] }}</th>
+            <th> {{ time[i] }}</th>
+        </tr>
+    </tbody>
+
+    <button (click)=goBackToPrev()>Back</button>
+<router-outlet></router-outlet>
