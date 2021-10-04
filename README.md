@@ -1,9 +1,17 @@
 Instrucation on how to run:
 
-1. Open XAMPP
-2. Start Apache and MySQL
-3.  Open command line and cd into the sample-project-api folder
-4.  Run the following commands:
+1.  Create a .env file in the sample-project-api folder
+2.  Inside put and define the following
+      DB_CONNECTION=
+      DB_HOST=
+      DB_PORT=
+      DB_DATABASE=
+      DB_USERNAME=
+      DB_PASSWORD=
+3.  Open XAMPP
+4.  Start Apache and MySQL
+5.  Open command line and cd into the sample-project-api folder
+6.  Run the following commands:
 
       --php artisan migrate:fresh
       
@@ -13,12 +21,12 @@ Instrucation on how to run:
       
       --php artisan serve
       
-5.  Open a new instance of command line and cd into the sample-project folder
-6.  Run the following command:
+7.  Open a new instance of command line and cd into the sample-project folder
+8.  Run the following command:
 
        --ng serve
 
-7.  Open browser and put in the address bar: "https://localhost:4200/user/{user}". Replace {name} with a real name (Stuart,Tyler, Adam or Lan)
+9.  Open browser and put in the address bar: "https://localhost:4200/user/{user}". Replace {name} with a real name (Stuart,Tyler, Adam or Lan)
 
 <img src='Stuart.png'/>
 <img src='Tyler.png'/>
